@@ -5,6 +5,7 @@ services:
       context: './php/'
       args:
        PHP_VERSION: ${PHP_VERSION}
+       TIMEZONE: ${TIMEZONE}
     networks:
       - backend
     volumes:
